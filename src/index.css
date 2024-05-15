@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media screen and (max-width: 700px) {
+    #text{
+        max-width: 200px;
+    word-wrap: break-word;
+    }
+  } */
+
+#text {
+  max-width: 20vw;
+  word-wrap: break-word;
+}
+
+.bgd {
+  background-color: #733ec8 !important;
+}
+
+.bgd:hover {
+  background-color: #452385 !important;
+}
+
+.main {
+  background-color: #ede9fe;
+}
